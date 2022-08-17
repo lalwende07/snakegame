@@ -1,0 +1,39 @@
+.header {
+  align-items: center;
+  border-bottom: 1px solid #282c34;
+  color: #282c34;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1rem 1rem;
+  margin-bottom: 1em;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.board {
+  height: 800px;
+  width: 800px;
+  border: 1px solid #282c34;
+}
+
+.game-over {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border: 2px solid#282c34;
+  border-left: none;
+  border-right: none;
+  font-size: 4em;
+  max-width: 6em;
+  text-align: center;
+  background: white;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}
